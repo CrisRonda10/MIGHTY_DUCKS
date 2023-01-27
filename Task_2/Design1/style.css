@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 500px;
+    background-image: url(./images/design1_image1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    position: relative;
+
+}
+
+#Logo{ 
+    transform: translate(1500px,325px);
+}  
+
+nav>ul{
+    display: inline-block;
+    position:absolute;
+    left: 190px;
+    margin-top: 40px;
+}
+li{
+    line-height: 1000%;
+    list-style: none;
+    font-size: 20px;
+}
+
+main{
+    display: inline-block;
+    position: absolute;
+    right: 600px;
+
+}
+
+ main>section{
+    margin-top: 125px;
+    margin-right: 100px;
+    
+}  
+
+h1{
+   font-size: 70px; 
+   font-style: oblique;
+   font-weight: 600;
+   margin-left: 25px;
+}
+
+h2{
+    font-size: 35px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+h3{
+    font-size: 30px;
+
+}
+
+figure{
+    margin-top: 50px;
+}
+
+.sin{
+    text-decoration: none;
+}
