@@ -80,8 +80,9 @@ figure{
 #Fotos{
     display: inline-block;
     position: absolute;
-    top: 120px;
+    top: 115px;
     right: 100px;
+    box-shadow: 3px 7px 15px 0px black;
 }
 
 .PrimeraLínea{
