@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+   font-size: 80px; 
+   font-style: italic;
+   font-weight: 600;
+   margin-left: 25px;
+}
+
+nav{
+    height: 500px;
+    background-image: url(./images/design1_image2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    position: relative;
+}
+
+ul{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: -20px;
+}
+
+
+li{
+    display: inline-block;
+}
+
+li>a{
+    font-size: 23px;
+    font-family: cursive;
+    background-color:rgb(56, 112, 217);
+    border: 2px solid black;
+    color:white;
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 2px 20px;
+
+}
+
+.Verde{
+    background-color:rgb(114, 188, 3);
+}
+
+main{
+    position: relative;
+}
+
+h2{
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+    
+}
+
+div{
+    display: inline-block;
+    position: absolute;
+    top: 95px;
+    left: 420px;
+}
+section{
+    margin-top: 43px;
+    margin-right: 100px;
+}  
+
+
+figure{
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 65px;
+}
+
+#Fotos{
+    display: inline-block;
+    position: absolute;
+    top: 115px;
+    right: 100px;
+    box-shadow: 3px 7px 15px 0px black;
+}
+
+.PrimeraLínea{
+    text-indent: 20px;
+
+}
+
+.Email{
+    margin-top: 20px;
+}
