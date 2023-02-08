@@ -240,6 +240,10 @@ fieldset{
   font-size: larger;
 }
 
+.conteinerMapasChico{
+  display: none;
+}
+
 
 @media only screen and (min-width:320px) and (max-width:767px){
 .conteinerPlayer{
@@ -305,6 +309,27 @@ table{
 }
 .conteinerMapas{
  display: none;
+}
+.conteinerMapasChico{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+iframe{
+  height: 80px;
+  width: 80px;
+  margin: 15px;
+}
+.ubi1{
+  translate: 12px -3px;
+  font-size: small;
+  text-decoration: overline;
+}
+.ubi2{
+  translate: 33px -3px;
+  font-size: small;
+  text-decoration: overline;
 }
 .info{
   font-size: small;
